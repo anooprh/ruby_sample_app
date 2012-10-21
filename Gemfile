@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
+gem 'bootstrap-sass'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
@@ -26,7 +27,6 @@ gem 'jquery-rails', '2.0.2'
 
 group :test do
   gem 'guard'
-  gem 'turn'
   gem 'capybara', '1.1.2'
   gem 'rb-fsevent', '0.9.1', :require => false
   gem 'growl', '1.0.3'
